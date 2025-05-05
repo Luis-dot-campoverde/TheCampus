@@ -24,7 +24,7 @@ var loc0003 = location(mapID: 3, locationName: "Blobert Residence Hall", image: 
 
 var loc1000 = location(mapID: 1000, locationName: "Commons North Lobby", image: "lobbyGeneric", imageMain: "lobbyGeneric", destinations: [dest0100, dest0110, dest0120, dest0130, dest0140, dest0002])
 var loc2000 = location(mapID: 2000, locationName: "Commons South Lobby", image: "lobbyGeneric", imageMain: "lobbyGeneric", destinations: [dest0150, dest0160, dest0170, dest0180, dest0190,  dest0002])
-var loc3000 = location(mapID: 3000, locationName: "Dorms 1st Floor", image: "lobbyGeneric", imageMain: "lobbyGeneric", destinations: [dest0200, dest0210, dest0220, dest0230, dest0240, dest0250,  dest0003])
+var loc3000 = location(mapID: 3000, locationName: "Dorms 1st Floor", image: "lobbyGeneric", imageMain: "lobbyGeneric", destinations: [dest0200, dest0210, dest0220, dest0230, dest0240, dest0250, dest0003])
 var loc4000 = location(mapID: 4000, locationName: "Dorms 2st Floor", image: "lobbyGeneric", imageMain: "lobbyGeneric", destinations: [dest0260, dest0270, dest0280, dest0290, dest0300, dest0310,  dest0003])
 var loc5000 = location(mapID: 5000, locationName: "Dorms 3nd Floor", image: "lobbyGeneric", imageMain: "lobbyGeneric", destinations: [dest0320, dest0330, dest0340, dest0350, dest0360, dest0370,  dest0003])
 var loc6000 = location(mapID: 6000, locationName: "Jerimiah Hall Floor 2 Lobby", image: "lobbyGeneric", imageMain: "lobbyGeneric", destinations: [dest0380, dest0390, dest0400, dest0410, dest0420, dest0001])
@@ -34,4 +34,4 @@ var loc7000 = location(mapID: 7000, locationName: "Jerimiah Hall Floor 3 Lobby",
 
 var loc0410 = location(mapID: 410, locationName: "Mr. Fitzer", owner: "Mr.Fitzer", image: "lobbyGeneric", imageMain: "", destinations: [dest0001], portfolioImages: ["lobbyGeneric"] )
 
-
+var loc0240 = location(mapID: 240, locationName: "Luis Campoverde", owner: "Luis Campoverde", image: "lecRoom", imageMain: "", textBlocks: ["Hey dude! My name is Clarck! Feel free to check out all of my amazing work!"], destinations: [dest3000], portfolioImages: ["lecCharPic"])

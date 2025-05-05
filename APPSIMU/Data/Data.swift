@@ -14,7 +14,7 @@ import SwiftUI
 
 // array of all locations. New Locations should be added to this array.
 
-var locations = [loc0000, loc0001, loc0002, loc0003, loc1000, loc2000, loc3000, loc4000, loc5000, loc6000, loc7000]
+var locations = [loc0000, loc0001, loc0002, loc0003, loc1000, loc2000, loc3000, loc4000, loc5000, loc6000, loc7000, loc0240]
 
 // Create an instance of the location and destination structs below:
 // make sure all instances of structs start with your initials.
