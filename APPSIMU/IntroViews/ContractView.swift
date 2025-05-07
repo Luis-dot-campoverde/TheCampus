@@ -142,7 +142,7 @@ struct ContractView: View {
                         .foregroundStyle(Color.red)
                         .padding(EdgeInsets(top: 10, leading: 10, bottom: 20, trailing: 10))
                         .multilineTextAlignment(.leading)
-                        Text("RISK DISCLAIMER: Due to extreme distances involved in interstellar digital transfer, communication with Earth-based systems will be impossible. Your digital persona will be completely autonomous and unreachable once deployed. Review all standard CRS disclaimers plus interstellar addendum before proceeding.")
+                        Text("RISK DISCLAIMER: Due to extreme distances involved in interstellar digital transfer, communication with Earth-based systems may be limited or impossible due to current satellite technology. Your digital persona will be completely autonomous and may be unreachable once deployed. Review all standard CRS disclaimers plus interstellar addendum before proceeding.")
                             .padding(EdgeInsets(top: 5, leading: 0, bottom: 5, trailing: 0))
                         Text("• STRICTLY PROHIBITED: Direct contact between users and their Personas may trigger catastrophic recursive failures in The Campus AI engine. Maintain separation at all times.")
                             .padding(EdgeInsets(top: 10, leading: 0, bottom: 10, trailing: 0))
@@ -164,14 +164,12 @@ struct ContractView: View {
 //                    print("Hello")
 //                } label: {
 //                    Text("test find")
-//                    
+//
 //                }
 
                 
                 
                         NavigationLink {
-                            //  ScanView()
-                           // ContentView(location: loc0000)
                             MyTabView()
                         } label: {
                             Text("I agree to the CRS terms of service")
@@ -188,7 +186,6 @@ struct ContractView: View {
                     }
                     .padding()
             }
-            .navigationBarBackButtonHidden(true)
             .onAppear{
                 playSound(sound: "theCampus3", type: "mp3")
                     
